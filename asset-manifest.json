@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/czinaaz-webstore/static/css/main.7acaea2f.css",
+    "main.js": "/czinaaz-webstore/static/js/main.07d3183d.js",
+    "index.html": "/czinaaz-webstore/index.html",
+    "main.7acaea2f.css.map": "/czinaaz-webstore/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/czinaaz-webstore/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
