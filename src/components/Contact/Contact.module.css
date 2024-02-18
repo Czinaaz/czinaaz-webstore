@@ -1,0 +1,62 @@
+/* Contact.css */
+
+.contact_section {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .map {
+    margin-bottom: 20px;
+  }
+  
+  .contact_info {
+    gap: 10%;
+    width: 80%;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .email_form {
+    width: 50%;
+    border: unset;
+    padding: 20px;
+  }
+  
+  .email_form h3 {
+    margin-top: 0;
+  }
+  
+  .email_form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .email_form input[type="email"],
+  .email_form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .email_form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 10px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .email_form button:hover {
+    background-color: #0056b3;
+  }
+  

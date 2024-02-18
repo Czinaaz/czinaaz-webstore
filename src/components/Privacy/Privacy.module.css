@@ -1,5 +1,10 @@
-.policy {
-    display: flex;
-    margin: auto;
-    width: 80%;
-}
+/* Privacy.css */
+
+.privacy_section {
+    padding: 0px 20px;
+  }
+  
+  .privacy_content {
+    line-height: 1.6;
+  }
+  
