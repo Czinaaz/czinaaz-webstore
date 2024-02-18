@@ -3,7 +3,7 @@ import css from './Privacy.module.css';
 export const Privacy = () => {
     return (
         <section id="privacy" className={css.privacy_section}>
-        <h2>Privacy Policy</h2>
+            <h2>Privacy Policy</h2>
             <div className={css.privacy_content}>
                 <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum, nisl eget
