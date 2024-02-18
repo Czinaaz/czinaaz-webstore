@@ -1,0 +1,20 @@
+.product_list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Powtarza 3 kolumny o jednakowej szerokości */
+  gap: 20px; /* Odstęp między elementami */
+}
+
+/* Dla mobile */
+@media (max-width: 768px) {
+  .product_list {
+    grid-template-columns: 1fr; /* Dla mobile, jedna kolumna */
+  }
+}
+
+/* Dla tablet i większych urządzeń */
+@media (min-width: 769px) {
+  .product_list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Dla desktop i tablet, trzy kolumny */
+  }
+}

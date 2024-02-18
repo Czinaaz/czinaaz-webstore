@@ -1,0 +1,130 @@
+.cart_div {
+    padding-bottom: 30px;
+}
+
+.cart_box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 10px;
+    border-bottom: 3px solid #2f2f2f;
+    
+}
+
+.cart_img {
+    width: 100px;
+}
+
+.cart_img img {
+    max-width: 100%;
+    height: auto;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_container button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: unset;
+    font-weight: 700;
+    background-color: rgb(0, 87, 164);
+    color: white;
+    margin: 0 5px; 
+}
+
+.button_self button {
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: unset;
+    font-weight: 700;
+    background-color: rgb(0, 87, 164);
+    color: white;
+}
+
+.total {
+    width: 40%;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.total_head {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: baseline;
+}
+
+.total_price {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+@media (max-width: 768px) {
+    .cart_div {
+        padding-bottom: 30px;
+    }
+    .cart_box {
+      width: 90%;
+      flex-direction: column; /* Zmiana układu na kolumnowy dla urządzeń mobilnych */
+      align-items: center; /* Ustawienie elementów na początku wertykalnie */
+      padding: 20px; /* Zwiększenie paddingu dla lepszego wyglądu na urządzeniach mobilnych */
+      margin-bottom: 5%;
+    }
+  
+    .cart_img {
+      width: 100px; /* Zwiększenie szerokości obrazka dla lepszej widoczności na urządzeniach mobilnych */
+      margin-bottom: 10px; /* Dodanie odstępu między obrazkiem a tekstem */
+    }
+  
+    .button_container {
+      justify-content: center; /* Wyśrodkowanie przycisków */
+      margin-top: 10px; /* Dodanie marginesu na górę */
+    }
+  
+    .button_container button {
+      margin: 0 5px; /* Dodajemy marginesy dla estetyki */
+      font-size: 14px; /* Zmniejszenie rozmiaru czcionki */
+      padding: 8px 12px; /* Zmniejszenie paddingu przycisku */
+      border-radius: 10px;
+      border: unset;
+      font-weight: 700;
+      background-color: rgb(0, 87, 164);
+      color: white;
+      margin-bottom: 10px;
+    }
+
+    .button_self button {
+        padding: 10px 15px;
+        border-radius: 10px;
+        border: unset;
+        font-weight: 700;
+        background-color: rgb(0, 87, 164);
+        color: white;
+    }
+  
+    .total {
+      width: 90%; /* Zmniejszenie szerokości sekcji total */
+      margin: auto; /* Wyśrodkowanie sekcji total */
+      margin-top: 20px; /* Dodanie marginesu na górę */
+      font-weight: bold; /* Zwiększenie pogrubienia tekstu */
+    }
+  
+    .total_head,
+    .total_price {
+      width: 100%; /* Rozciągnięcie nagłówka i ceny na pełną szerokość */
+      text-align: center; /* Wyśrodkowanie tekstu */
+    }
+  }
+  

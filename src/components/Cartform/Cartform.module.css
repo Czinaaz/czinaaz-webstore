@@ -1,0 +1,21 @@
+.cartform {
+    width: auto;
+    height: 50px;
+    padding: 10px;
+    background-color: rgb(7, 14, 59);
+}
+
+.heading_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .heading_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}

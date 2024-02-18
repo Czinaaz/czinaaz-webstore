@@ -1,17 +1,25 @@
 import { Route, Routes } from "react-router-dom";
 import { Home } from "../pages/Home/Home";
-// import { ProductDetails } from "../pages/ProductDetails/ProductDetails";
-import { Products } from "../pages/Products/Products";
-import { Layout } from "./Layout/Layout";
+import { Navbar } from "./Navbar/Navbar";
+import { Contact } from './Contact/Contact';
+import {Loginform} from "./Loginform/Loginform";
+import {Privacy} from "./Privacy/Privacy";
+import {Signup} from "./Signup/Signup";
+import Header from "./Header/Header";
 
 export const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={<Home />} />
-        <Route path="products" element={<Products />} />
-      </Route>
-    </Routes>
+    <div>
+        <Header/>
+        <Navbar/>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/privacy" element={<Privacy/>} />
+          <Route path="/loginform" element={<Loginform/>} />
+          <Route path="/contact" element={<Contact/>} />
+          <Route path="/signup" element={<Signup/>} />
+        </Routes>
+    </div>
   );
 };
 
