@@ -1,7 +1,10 @@
 .cartform {
     width: auto;
-    height: 50px;
-    padding: 10px;
+
+}
+
+.cartform_navbar {
+    padding: 10px 10px 10px 10px;
     background-color: rgb(7, 14, 59);
 }
 

@@ -5,10 +5,16 @@
     flex-direction: column;
     margin: auto;
     padding: 20px;
+    gap: 50px;
   }
   
   .map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
+    width: max-content;
+    height: auto;
   }
   
   .contact_info {
@@ -48,10 +54,11 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 10px 40px;
-    background-color: #007bff;
+    padding: 15px 40px;
+    background-color: rgb(16, 16, 44);
     color: #fff;
     border: none;
+    font-size: 20px;
     border-radius: 20px;
     cursor: pointer;
   }
@@ -60,3 +67,23 @@
     background-color: #0056b3;
   }
   
+
+/* Dodaj style dla urządzeń mobilnych i tabletów */
+@media screen and (max-width: 768px) {
+    .contact_info {
+        width: 100%; /* Na urządzeniach mobilnych i tabletach szerokość będzie 100% */
+    }
+
+    .map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 95%;
+        height: 300px;
+      }
+
+    .email_form {
+        width: 100%; /* Na urządzeniach mobilnych i tabletach szerokość będzie 100% */
+    }
+}

@@ -42,7 +42,10 @@ const Cartform = () => {
     return (
         <div>
             <div className={css.cartform}>
-                <Navbar setShow={setShow} size={cart.length} />
+                <div className={css.cartform_navbar}>
+                    <Navbar setShow={setShow} size={cart.length} />
+                </div>
+                
                 <h1 className={css.heading_content}>
                     Meet the internet`s favourite skincare.
                 </h1>
@@ -56,8 +59,6 @@ const Cartform = () => {
 
                 }
                 <Shopkart/>
-
-
             </div>
         </div>
     );

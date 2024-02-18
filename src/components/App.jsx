@@ -6,6 +6,7 @@ import {Loginform} from "./Loginform/Loginform";
 import {Privacy} from "./Privacy/Privacy";
 import {Signup} from "./Signup/Signup";
 import Header from "./Header/Header";
+import Footer from "./Footer/Footer";
 
 export const App = () => {
   return (
@@ -19,6 +20,7 @@ export const App = () => {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/signup" element={<Signup/>} />
         </Routes>
+        <Footer/>
     </div>
   );
 };

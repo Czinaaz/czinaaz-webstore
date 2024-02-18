@@ -1,6 +1,8 @@
 import React from "react";
 import Cartform from "../../components/Cartform/Cartform";
 import css from './Home.module.css'
+import Section from "components/Section/Section";
+
 
 export const Home = () => {
     return (
@@ -14,7 +16,10 @@ export const Home = () => {
             </div>
         </div>
         <Cartform/>
+        <Section/>
+
       </div>
+
     );
 };
   

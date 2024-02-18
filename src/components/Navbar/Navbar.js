@@ -39,7 +39,7 @@ export const Navbar = () => {
         {/* MenuIcon */}
       </div>
       <div className={css.img}>
-      <img width={150} src={Logo} alt=""/>
+        <img width={200} src={Logo} alt=""/>
       </div>
     </div>
     <div className={css.menu_bar}>
