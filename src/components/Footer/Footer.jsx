@@ -34,16 +34,16 @@ export const Footer = () => {
                 <ul className={css.box}>
                     <li className={css.link_name}>Services</li>
                     <li>
-                    <a >App design</a>
+                    <a href="https://github.com/Czinaaz">App design</a>
                     </li>
                     <li>
-                    <a >Web design</a>
+                    <a href="https://github.com/Czinaaz">Web design</a>
                     </li>
                     <li>
-                    <a >Logo design</a>
+                    <a href="https://github.com/Czinaaz">Logo design</a>
                     </li>
                     <li>
-                    <a >Banner design</a>
+                    <a href="https://github.com/Czinaaz">Banner design</a>
                     </li>
                 </ul>
                 <ul className={css.box}>
@@ -64,16 +64,16 @@ export const Footer = () => {
                 <ul className={css.box}>
                     <li className={css.link_name}>Courses</li>
                     <li>
-                    <a >Web Development</a>
+                    <a href="https://github.com/Czinaaz">Web Development</a>
                     </li>
                     <li>
-                    <a >App Development</a>
+                    <a href="https://github.com/Czinaaz">App Development</a>
                     </li>
                     <li>
-                    <a >Video Editing</a>
+                    <a href="https://github.com/Czinaaz">Video Editing</a>
                     </li>
                     <li>
-                    <a >Content Writting</a>
+                    <a href="https://github.com/Czinaaz">Content Writting</a>
                     </li>
                 </ul>
                 <div className={css.box} >
