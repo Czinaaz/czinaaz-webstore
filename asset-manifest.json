@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/czinaaz-webstore/static/css/main.33717fe1.css",
-    "main.js": "/czinaaz-webstore/static/js/main.38fe6de5.js",
+    "main.js": "/czinaaz-webstore/static/js/main.ccb08eb6.js",
     "static/media/logo.avif": "/czinaaz-webstore/static/media/logo.45fcb2dd27bf9f9bb28b.avif",
     "index.html": "/czinaaz-webstore/index.html",
     "main.33717fe1.css.map": "/czinaaz-webstore/static/css/main.33717fe1.css.map",
-    "main.38fe6de5.js.map": "/czinaaz-webstore/static/js/main.38fe6de5.js.map"
+    "main.ccb08eb6.js.map": "/czinaaz-webstore/static/js/main.ccb08eb6.js.map"
   },
   "entrypoints": [
     "static/css/main.33717fe1.css",
-    "static/js/main.38fe6de5.js"
+    "static/js/main.ccb08eb6.js"
   ]
 }
