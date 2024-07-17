@@ -17,7 +17,7 @@ const list = [
     id: 3,
     title: 'Shampoo Anti-Dandruff',
     price: 5.49,
-    img: 'https://media.douglas.pl/medias/m88VJF378884-0-dgl-PL.jpg?context=bWFzdGVyfGltYWdlc3w0OTU2N3xpbWFnZS9qcGVnfGFERXdMMmhrWmk4eE1UZzFNakF6T0RrMk16SXpNQzl0T0RoV1NrWXpOemc0T0RSZk1GOWtaMnd0VUV3dWFuQm58ZmI0MzgzZTQxYzBmNDQ5NDY5OTZmNTBjMGE4MDZkYWQ0YzNmZjM1OTgxYzg5ZjA5M2YyZGVlZTk1ZWVjNGFlMw&grid=true',
+    img: 'https://i.ebayimg.com/images/g/vY0AAOSwU1Bht43Z/s-l1200.webp',
     amount: 1
     },
     {
@@ -38,7 +38,7 @@ const list = [
     id: 6,
     title: 'Conditioner Hydrate Plus',
     price: 25.99,
-    img: 'https://media.douglas.pl/medias/m88VJF378884-0-dgl-PL.jpg?context=bWFzdGVyfGltYWdlc3w0OTU2N3xpbWFnZS9qcGVnfGFERXdMMmhrWmk4eE1UZzFNakF6T0RrMk16SXpNQzl0T0RoV1NrWXpOemc0T0RSZk1GOWtaMnd0VUV3dWFuQm58ZmI0MzgzZTQxYzBmNDQ5NDY5OTZmNTBjMGE4MDZkYWQ0YzNmZjM1OTgxYzg5ZjA5M2YyZGVlZTk1ZWVjNGFlMw&grid=true',
+    img: 'https://i.ebayimg.com/images/g/vY0AAOSwU1Bht43Z/s-l1200.webp',
     amount: 1
     },
     {
